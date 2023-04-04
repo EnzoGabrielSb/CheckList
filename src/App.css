@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1b1b32;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato;
+  flex-direction: column;
+}
+
+.logo-bienvenida {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Logo {
+  height: 150px;
+}
+
+.lista-de-tareas {
+  width: 600px;
+  min-height: 100px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
